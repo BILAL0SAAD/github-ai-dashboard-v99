@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 GitHub AI Dashboard
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![GitHub AI Dashboard](screenshots/screenshot.png)
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+
+**An AI-powered GitHub analytics dashboard with real-time statistics and intelligent commit message generation**
+
+[Live Demo](https://ai-github-stats-ay8s.vercel.app) • [Report Bug](https://github.com/BILAL0SAAD/github-ai-dashboard/issues) • [Request Feature](https://github.com/BILAL0SAAD/github-ai-dashboard/issues)
+
+</div>
+
+---
+
+## ✨ Features
+
+- 📊 **Real-Time GitHub Stats** - Visualize repositories, stars, forks, and followers instantly
+- 🤖 **AI Commit Messages** - Generate professional commit messages using OpenAI GPT-3.5
+- 📈 **Language Analytics** - Interactive breakdown of programming languages with percentages
+- ⭐ **Top Repositories** - Showcase your most starred projects with engagement metrics
+- 🎭 **Glassmorphism UI** - Modern design with gradients, blur effects, and smooth animations
+- 📱 **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
+
+---
+
+## 🚀 Live Demo
+
+**[Try it now →](https://your-vercel-url.vercel.app)**
+
+Test with these usernames: `BILAL0SAAD`, `torvalds`, `gaearon`
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first styling
+- **OpenAI API** - GPT-3.5 for AI features
+- **GitHub API** - Real-time data via Octokit
+- **Vercel** - Deployment platform
+
+---
+
+## 🔧 Installation
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+- OpenAI API key
+
+### Setup
 
 ```bash
+# Clone repository
+git clone https://github.com/BILAL0SAAD/github-ai-dashboard.git
+cd github-ai-dashboard
+
+# Install dependencies
+npm install
+
+# Create .env.local file
+echo "OPENAI_API_KEY=your-key-here" > .env.local
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deployment
 
-## Learn More
+### Deploy to Vercel
 
-To learn more about Next.js, take a look at the following resources:
+1. Push code to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Import repository
+4. Add `OPENAI_API_KEY` environment variable
+5. Deploy!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```
+github-ai-dashboard/
+├── app/
+│   ├── page.tsx                 # Main page
+│   ├── globals.css              # Styles
+│   └── api/generate-commit/     # API route
+├── components/
+│   ├── GitHubStats.tsx          # Stats component
+│   └── AICommitGenerator.tsx    # AI component
+└── .env.local                   # Environment variables
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Usage
+
+1. **Analyze Profile**: Enter GitHub username → Click "Analyze"
+2. **View Stats**: See repositories, stars, languages, top projects
+3. **Generate Commits**: Describe changes → Get AI-generated message
+
+---
+
+## 👨‍💻 Author
+
+**Bilal Saad**
+
+- Portfolio: [my-portfolio-seven-kappa-31.vercel.app](https://my-portfolio-seven-kappa-31.vercel.app)
+- LinkedIn: [Belal Saad](https://www.linkedin.com/in/belal-saad-9455a7321/)
+- GitHub: [@BILAL0SAAD](https://github.com/BILAL0SAAD)
+- Email: belalsaad2001@gmail.com
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details
+
+---
+
+<div align="center">
+
+**Made with ❤️ and AI**
+
+⭐ Star this repo if you found it helpful!
+
+</div>
