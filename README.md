@@ -11,7 +11,7 @@
 
 **An AI-powered GitHub analytics dashboard with real-time statistics and intelligent commit message generation**
 
-[Live Demo](https://ai-github-stats-ay8s.vercel.app) • [Report Bug](https://github.com/BILAL0SAAD/github-ai-dashboard/issues) • [Request Feature](https://github.com/BILAL0SAAD/github-ai-dashboard/issues)
+[Live Demo](https://github-ai-dashboard-v99.vercel.app/) • [Report Bug](https://github.com/BILAL0SAAD/github-ai-dashboard/issues) • [Request Feature](https://github.com/BILAL0SAAD/github-ai-dashboard/issues)
 
 </div>
 
