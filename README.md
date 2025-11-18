@@ -88,20 +88,6 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📁 Project Structure
-
-```
-github-ai-dashboard/
-├── app/
-│   ├── page.tsx                 # Main page
-│   ├── globals.css              # Styles
-│   └── api/generate-commit/     # API route
-├── components/
-│   ├── GitHubStats.tsx          # Stats component
-│   └── AICommitGenerator.tsx    # AI component
-└── .env.local                   # Environment variables
-```
-
 ---
 
 ## 🎯 Usage
