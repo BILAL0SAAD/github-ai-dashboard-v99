@@ -30,7 +30,7 @@
 
 ## 🚀 Live Demo
 
-**[Try it now →](https://your-vercel-url.vercel.app)**
+**[Try it now →](https://github-ai-dashboard-v99.vercel.app/)**
 
 Test with these usernames: `BILAL0SAAD`, `torvalds`, `gaearon`
 
